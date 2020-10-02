@@ -39,7 +39,7 @@ The Database should be run on the real machine. So install the MySql normally.
 4. Verify that Docker Engine and Docker Compose work
 5. Clone docker source files https://github.com/duy-iscity/vkids-docker
 6. Clone source code:
-    - mlm-ng-goapi project to ./backend folder
+    - mlm-standard-api project to ./backend folder
     - mlm-ng-admin project to ./admin folder
     - mlm-ng project to ./member folder
     - mlm-ng project to ./resource folder
@@ -55,7 +55,7 @@ Use build.sh shell script to build services
 After building bellow files will appeared in the release folder:
   - ./release/admin/admin.tar.gz
   - ./release/member/member.tar.gz
-  - ./release/backend/go-space/bin/mlm-ng-goapi
+  - ./release/backend/go-space/bin/mlm-standard-api
   - ./release/resource/resource.tar.gz
   
 ## Deploying

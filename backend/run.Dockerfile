@@ -13,4 +13,4 @@ COPY ./go-space /app/go-space
 
 CMD cd /app/go-space \
   && ls && ls bin \
-  && bin/mlm-ng-goapi
+  && bin/mlm-standard-api

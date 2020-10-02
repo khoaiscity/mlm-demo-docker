@@ -2,17 +2,17 @@
 .idea/
 
 # sources
-backend/mlm-ng-goapi
+backend/mlm-standard-api
 admin/mlm-ng-admin
 member/mlm-ng
 resource/mlm-ng
 
 # backend files
-backend/go-space/bin/mlm-ng-goapi
+backend/go-space/bin/mlm-standard-api
 backend/go-space/runtime
 
 release/admin/admin.tar.gz
 release/member/member.tar.gz
 release/resource/resource.tar.gz
-release/backend/go-space/bin/mlm-ng-goapi
+release/backend/go-space/bin/mlm-standard-api
 release.tar.gz

@@ -1,8 +1,8 @@
 server {
-	server_name vkidsadmin.securelayers.cloud;
-        error_log /var/log/nginx/vkids-admin.log warn;
-        access_log /var/log/nginx/vkids-admin.log;
-        listen 80;
+	server_name std-admin.securelayers.cloud;
+    error_log /var/log/nginx/std-admin.log warn;
+    access_log /var/log/nginx/std-admin.log;
+    listen 80;
 	location / {
 		proxy_pass http://localhost:3202;
 		proxy_http_version 1.1;

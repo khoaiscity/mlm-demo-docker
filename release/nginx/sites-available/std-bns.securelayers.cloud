@@ -1,8 +1,8 @@
 server {
-	server_name vkids.securelayers.cloud;
-        error_log /var/log/nginx/vkids.log warn;
-        access_log /var/log/nginx/vkids.log;
-        listen 80;
+    server_name std-bns.securelayers.cloud;
+    error_log /var/log/nginx/std-bns.log warn;
+    access_log /var/log/nginx/std-bns.log;
+    listen 80;
 	location / {
 		proxy_pass http://localhost:3102;
 		proxy_http_version 1.1;

@@ -127,7 +127,7 @@ services:
     working_dir: /app
     volumes:
       - ./backend/go-space/bin:/app/go-space/bin
-      - ./backend/mlm-standrd-api:/app/go-space/src/mlm-standard-api
+      - ./backend/mlm-standard-api:/app/go-space/src/mlm-standard-api
       - ./backend/mlm-standard-api:/app/go-space/src/github.com/smartblock/mlm-standard-api
     network_mode: "host"
 

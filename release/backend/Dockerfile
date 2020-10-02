@@ -12,4 +12,4 @@ RUN apk add --no-cache \
 COPY ./go-space /app/go-space
 
 CMD cd /app/go-space \
-  && bin/mlm-ng-goapi
+  && bin/mlm-standard-api

@@ -188,6 +188,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/release/backend/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/release/backend/go-space/bin/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/release/backend/go-space/conf/app.ini">
           <value>
             <set />
@@ -419,6 +429,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-ng-goapi/service/public/serializers/menu.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/app/app.ini">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/routers/router_admin.go">
           <value>
             <set />
           </value>

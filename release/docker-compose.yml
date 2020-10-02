@@ -60,6 +60,6 @@ services:
     stdin_open: true
     working_dir: /app
     volumes:
-      - /www/backend-vkids-logs:/app/go-space/runtime/logs
-      - /www/uploads-vkids:/app/go-space/resource
+      - /www/backend-mlm-standard-logs:/app/go-space/runtime/logs
+      - /www/uploads-mlm-standard:/app/go-space/resource
     network_mode: "host"

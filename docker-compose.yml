@@ -38,13 +38,13 @@ services:
     build:
       context: ./member
       dockerfile: build.Dockerfile
-    image: vkids-member-build:prod
+    image: mlm-standard-member-build:prod
     restart: "no"
     tty: true
     working_dir: /app
     volumes:
       - ./member/build:/app/build
-      - ./member/mlm-ng:/app/mlm-ng
+      - ./member/member-source:/app/member-source
     network_mode: "host"
 
   member:

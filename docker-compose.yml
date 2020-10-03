@@ -64,13 +64,13 @@ services:
     build:
       context: ./admin
       dockerfile: build.Dockerfile
-    image: vkids-admin-build:prod
+    image: mlm-standard-admin-build:prod
     restart: "no"
     tty: true
     working_dir: /app
     volumes:
       - ./admin/build:/app/build
-      - ./admin/mlm-ng-admin:/app/mlm-ng-admin
+      - ./admin/admin-source:/app/admin-source
     network_mode: "host"
 
   admin:

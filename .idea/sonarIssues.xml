@@ -158,6 +158,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/admin/build.Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/backend/build.Dockerfile">
           <value>
             <set />
@@ -433,12 +438,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/README_ZH.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/app/app.ini">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/conf/app.ini">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/cron/handler/v1/captcha.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/docs/docs.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/main.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/routers/router.go">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/routers/router_admin.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mygo/src/github.com/smartblock/mlm-standard-api/vendor/vendor.json">
           <value>
             <set />
           </value>

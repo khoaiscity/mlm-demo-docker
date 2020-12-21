@@ -64,7 +64,7 @@ services:
     build:
       context: ./admin
       dockerfile: build.Dockerfile
-    image: mlm-standard-admin-build:prod
+    image: mlm-demo-admin-build:prod
     restart: "no"
     tty: true
     working_dir: /app

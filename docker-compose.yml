@@ -38,7 +38,7 @@ services:
     build:
       context: ./member
       dockerfile: build.Dockerfile
-    image: mlm-standard-member-build:prod
+    image: mlm-demo-member-build:prod
     restart: "no"
     tty: true
     working_dir: /app

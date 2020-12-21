@@ -120,7 +120,7 @@ services:
       dockerfile: build.Dockerfile
     environment:
       - GOPATH=/app/go-space
-    image: mlm-standard-backend-build:prod
+    image: mlm-demo-backend-build:prod
     restart: "no"
     tty: true
     stdin_open: true
@@ -143,5 +143,5 @@ services:
     stdin_open: true
     working_dir: /app
     volumes:
-      - /www/backend-mlm-standard-logs:/app/go-space/runtime/logs
+      - /www/backend-mlm-demo-logs:/app/go-space/runtime/logs
     network_mode: "host"
